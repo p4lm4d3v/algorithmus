@@ -5,8 +5,8 @@
 
 # Content
 
-  - [Paper Marbling Random]()
-  - [Paper Marbling Displacement]()
+  - [Paper Marbling Displacement](https://github.com/p4lm4d3v/world-of-code/tree/main/p5js/algorithms/paper-marbling/paper-marbling-displacement)
+  - [Paper Marbling Random](https://github.com/p4lm4d3v/world-of-code/tree/main/p5js/algorithms/paper-marbling/paper-marbling-random)
 
 # Resources
   
