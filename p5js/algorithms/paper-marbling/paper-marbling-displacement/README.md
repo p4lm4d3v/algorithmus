@@ -7,9 +7,6 @@
 
   - This is an interactive project with which you can create ["Paint Drops"](http://people.csail.mit.edu/jaffer/Marbling/Mathematics) that interact displace each other, and you can also create ["Tine Lines"](http://people.csail.mit.edu/jaffer/Marbling/Mathematics) that displace the drops like a stick would when you run it through the liquid which holds the drop
   - With the keybinds defined below you can do these different actions in the interactive environment 
-
-  <br>
-
   - ["Paint Drops"](http://people.csail.mit.edu/jaffer/Marbling/Mathematics) - _(search for **"drop"**)_
   - ["Tine Line"](http://people.csail.mit.edu/jaffer/Marbling/Mathematics) - _(search for **"tine line"**)_
 

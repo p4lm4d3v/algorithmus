@@ -10,9 +10,6 @@
   - The program automatically, every 15 frames, generates ["Paint Drops"](http://people.csail.mit.edu/jaffer/Marbling/Mathematics) that interact with each other by displacing them selfs, bc. they are [incompressible](https://dictionary.cambridge.org/dictionary/english/incompressible)
   - The program also automatically, every 150 frames, generate a ["Tine Line"](http://people.csail.mit.edu/jaffer/Marbling/Mathematics) 
   - A "Tine Line" is a line that displaces the drops in way that is similar to taking a slim stick and running it through the liquid that the drop is in
-
-  <br>
-
   - ["Paint Drops"](http://people.csail.mit.edu/jaffer/Marbling/Mathematics) - _(search for **"drop"**)_
   - ["Tine Line"](http://people.csail.mit.edu/jaffer/Marbling/Mathematics) - _(search for **"tine line"**)_
 
