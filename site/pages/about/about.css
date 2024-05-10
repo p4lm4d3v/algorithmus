@@ -13,9 +13,3 @@ body {
   background-position: center;
   background-size: contain;
 }
-
-.avatar {
-  vertical-align: middle;
-  width: 15%;
-  border-radius: 50%;
-}
