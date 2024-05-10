@@ -7,7 +7,8 @@
 
 body {
   min-height: 100vh;
-  background: url("../assets/hello_world.png") no-repeat;
+  background-color: whitesmoke;
+  background: url(../assets/earth_wide.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -18,11 +19,6 @@ body {
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background: linear-gradient(
-    to top,
-    rgba(255, 255, 255, 0) 50%,
-    rgb(131, 2, 109) 100%
-  );
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,16 +27,16 @@ body {
 
 .logo {
   font-size: 32px;
-  color: white;
+  color: seagreen;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .navbar-item {
   position: relative;
   font-size: 20px;
-  color: #fff;
-  font-weight: 500;
+  color: seagreen;
+  font-weight: 700;
   text-decoration: none;
   margin-left: 40px;
 }
@@ -52,11 +48,11 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background: white;
+  background-color: white;
   transition: 0.3s;
 }
 
 .navbar-item:hover::before {
   width: 100%;
-  background: white;
+  background-color: white;
 }
