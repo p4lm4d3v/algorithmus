@@ -11,5 +11,5 @@ body {
   background-color: rgb(206, 206, 206);
   background: url("../assets/earth_wide.png") no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
