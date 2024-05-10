@@ -1,0 +1,47 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 32px;
+  color: seagreen;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.navbar-item {
+  position: relative;
+  font-size: 20px;
+  color: seagreen;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar-item::before {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: seagreen;
+  transition: 0.3s;
+}
+
+.navbar-item:hover::before {
+  width: 100%;
+  background-color: seagreen;
+}
+
+.selected {
+  color: white;
+}
