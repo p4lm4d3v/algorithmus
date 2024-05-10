@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: url("../assets/hello_world.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 50%,
+    rgb(131, 2, 109) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar-item {
+  position: relative;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar-item::before {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: 0.3s;
+}
+
+.navbar-item:hover::before {
+  width: 100%;
+  background: white;
+}
