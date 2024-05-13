@@ -26,7 +26,7 @@
   margin-left: 40px;
 }
 
-.navbar-item::before {
+.navbar-item-hover::before {
   content: "";
   position: absolute;
   top: 110%;
@@ -37,11 +37,14 @@
   transition: 0.3s;
 }
 
-.navbar-item:hover::before {
+.navbar-item-hover:hover::before {
   width: 100%;
   background-color: seagreen;
 }
 
 .selected {
+  background-image: linear-gradient(to top left, seagreen, rgb(115, 207, 115));
   color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
 }
