@@ -1,4 +1,4 @@
-# World of Code
+# Algorithmus
 
   - Made by ```p4lm4d3v```
 
