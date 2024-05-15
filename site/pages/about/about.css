@@ -5,26 +5,17 @@
   font-family: "Courier New";
 }
 
+:root {
+  --std-bg: rgba(16, 18, 25, 255);
+}
+
 body {
   height: 100vh;
   width: 100vw;
+  background-color: var(--std-bg);
   /* background-color: rgb(206, 206, 206); */
-  background-image: linear-gradient(to bottom, rgb(206, 206, 206), white);
+  /* background-image: linear-gradient(to bottom, rgb(206, 206, 206), white); */
   /* background: url("../../assets/earth_wide.png") no-repeat; */
-  background-position: center;
-  background-size: contain;
-}
-
-.title-container {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.title {
-  text-align: center;
-  color: seagreen;
-  font-size: 5em;
+  /* background-position: center;
+  background-size: contain; */
 }

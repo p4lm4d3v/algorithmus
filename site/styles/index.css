@@ -5,66 +5,18 @@
   font-family: "Courier New";
 }
 
+:root {
+  --std-bg: rgba(16, 18, 25);
+  --std-pink: rgb(238, 29, 93);
+  --std-blue: rgb(23, 114, 199);
+  --std-blue-gray: rgb(130, 160, 187);
+}
+
 body {
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(to bottom, rgb(206, 206, 206), white);
-  /* background-image: linear-gradient(
-    to bottom right,
-    #f0db4f,
-    #eb345e,
-    lightskyblue */
-  /* ); */
-}
-
-.main-container {
-  width: 100vw;
-  height: 100vh;
+  background-color: var(--std-bg);
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.main-container div {
-  color: white;
-  padding: 5px;
-  border-radius: 20px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
-  width: 30vh;
-  height: 30vh;
-  margin: 15px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.p5js-container {
-  background: url("../assets/p5js-pink.png") no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-color: #eb345e;
-  transition: transform 0.1s ease-in;
-}
-.p5js-container:hover {
-  transform: scale(1.1);
-}
-
-.vanilla-container {
-  background: url("../assets/js.png") no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-color: #f0db4f;
-}
-.vanilla-container:hover {
-  transform: scale(1.1);
-}
-
-.processing-container {
-  background: url("../assets/Processing_2021_logo.svg") no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-color: lightskyblue;
-}
-.processing-container:hover {
-  transform: scale(1.1);
 }
