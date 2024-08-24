@@ -6,7 +6,8 @@
   * [Fractal Canopy](https://en.wikipedia.org/wiki/Fractal_canopy)
   * [Menger Sponge](https://en.wikipedia.org/wiki/Menger_sponge)
   * [Apollonian Gakset](https://en.wikipedia.org/wiki/Apollonian_gasket)
-
+  * [Dragon Curve (Jurassic Fractal)](https://en.wikipedia.org/wiki/Dragon_curve)
+ 
 # Future
  * [Jerusalem Cube (Menger Sponge Variation)](https://www.robertdickau.com/jerusalemcube.html) 
  * [Sierpiński triangle](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle)
