@@ -65,7 +65,6 @@ function mouseReleased() {
 
 // RUNS WHEN A KEYBOARD KEY IS PRESSED
 function keyPressed() {
-  console.log("kita");
   if (key === "n") {
     addInk(mouseX, mouseY, random(10, 50));
   }
